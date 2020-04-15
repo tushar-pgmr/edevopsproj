@@ -27,7 +27,7 @@ public class ProjCert {
 		String astr = driver.findElement(By.xpath("/html/body")).getText();
 		Assert.assertEquals(astr, estr);
 		
-		driver.close();
+		//driver.close();
   }
   
 }
