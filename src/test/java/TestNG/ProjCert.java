@@ -27,8 +27,7 @@ public class ProjCert {
 		String astr = driver.findElement(By.xpath("/html/body")).getText();
 		Assert.assertEquals(astr, estr);
 		
-		System.out.printf("Hello %s!%n", "World");
-		System.out.printf("%n PRINTING THE EXTRACTED TEXT %s %n", astr);
+		System.out.printf("%n PRINTING THE EXTRACTED TEXT:%n %s %n%n", astr);
 				
 		Thread.sleep(30000);
 		driver.close();
