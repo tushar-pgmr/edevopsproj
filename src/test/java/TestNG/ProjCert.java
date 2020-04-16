@@ -14,7 +14,7 @@ public class ProjCert {
 		ChromeDriver driver = new ChromeDriver();
 		
 		driver.get("http://3.133.103.184:32768/");
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 				
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
