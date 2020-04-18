@@ -13,7 +13,7 @@ public class ProjCert {
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.get("http://3.15.236.240:32768/");
+		driver.get("http://3.135.17.246:32768/");
 		Thread.sleep(1000);
 				
 		driver.manage().window().maximize();
